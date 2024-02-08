@@ -8,10 +8,10 @@ let user = {
     location: "Alagbado"
 
 };
-console.log(user["firstName"]);
-console.log(user["last_name"]);
-console.log(user["sex"]);
-console.log(user["age"]);
-console.log(user["cohort"]);
-console.log(user["best_color"]);
-console.log(user["location"]);
+
+let results =["firstName","last_name","sex","age","cohort","best_color","location"];
+
+for (let count = 0 ; count < results.length ; count++){
+    let result = results[count];
+    console.log(user[result])
+} 
